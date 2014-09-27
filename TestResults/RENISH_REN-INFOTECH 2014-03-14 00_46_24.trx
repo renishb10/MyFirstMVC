@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="285903aa-474e-4371-90e8-10f288cc2376" name="RENISH@REN-INFOTECH 2014-03-14 00:46:24" runUser="REN-INFOTECH\RENISH" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3c2fe1b5-f1ba-414d-9d48-afe3e2b4cb4f">
+    <Deployment runDeploymentRoot="RENISH_REN-INFOTECH 2014-03-14 00_46_24">
+      <DeploymentItem filename="D:\RIT_Workspace\MyFirstMVC\MyFirstMVC\bin\MyFirstMVC.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-14T00:46:24.3356857+05:30" queuing="2014-03-14T00:46:25.8317713+05:30" start="2014-03-14T00:46:24.3356857+05:30" finish="2014-03-14T00:46:26.2287940+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="17" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="REN-INFOTECH" outcome="Error" timestamp="2014-03-14T00:46:26.2047926+05:30">
+        <Text>AddAgentMachines: No machines were assigned to the run</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="70202136-d0e9-7a6b-007a-72e1bcc33cc2">
+      <Execution id="c116d061-60bf-4b5c-9dc1-488a956c13cd" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="f90221a7-d641-e8de-acd8-a98bf4190c93">
+      <Execution id="cc806927-b3b5-4570-a3ac-fe898daa0e13" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="d8ab82bd-93f1-f614-4138-500867e34e48">
+      <Execution id="70f8112f-ada6-451a-ba4c-75e1b4674514" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="fad39121-cae6-7ba8-a776-4227aeae1cfb">
+      <Execution id="5c4665c8-110a-40a1-a4d6-609c65ecdd33" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="ebc08476-5eec-11cb-d2ad-c1459517b868">
+      <Execution id="92f9613a-149a-41a9-a5e1-f2b773b2a1c5" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="96cd94ed-e671-e068-c59d-767b9a84eb50">
+      <Execution id="0557b43a-f51c-45af-a93c-9e9f8bba65fa" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="af03b902-9d9a-22ca-b19c-722cbfa28ef6">
+      <Execution id="9bf7843d-c343-430d-a97f-2e3a4145e654" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="a040b611-3406-69aa-a754-4ace4cc5a7b2">
+      <Execution id="4d5c9591-436a-42fc-826a-70d7ad11c78d" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="About" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="b1e782de-f4f0-968d-0793-b34f6c03aa37">
+      <Execution id="f508f908-803e-4141-bc66-1507f842c1e8" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.HomeControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="4d9d1b2e-af50-a783-5f72-26d77ef268bc">
+      <Execution id="64ae414b-64b0-45a4-88dc-4775242d8923" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="20512316-d1c9-66ff-c112-e31fc9fedded">
+      <Execution id="237586fb-6cd9-4d07-8ea8-bd23a81af309" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Index" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="91ba4676-435b-8af9-56cd-4c526f6ddcc4">
+      <Execution id="9c581e8a-d19c-468e-845c-1244ac12ded2" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.HomeControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="218cf645-fc3e-b090-b270-165b5ce728ab">
+      <Execution id="8d661635-58ae-4afc-8486-1aefcff8a753" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="e0704885-cd8d-1109-937b-2f846c2d8383">
+      <Execution id="bd087250-9951-4581-a0f9-0a35cfc7e68f" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="593aa7a0-480c-3935-4631-347a5c4df54e">
+      <Execution id="3ec65d08-6566-4b66-be7d-7f9388038fec" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="30f03493-3cb3-0bb5-694d-2cada8636f17">
+      <Execution id="9f90ee55-dba4-4632-9b97-ada4ff7f3b7f" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\rit_workspace\myfirstmvc\myfirstmvc.tests\bin\debug\myfirstmvc.tests.dll" id="e7ec2cb1-bdad-676e-f4d0-198c0aef9fd3">
+      <Execution id="64bbab6d-0824-4ca5-a865-1c5fca0194a7" />
+      <TestMethod codeBase="D:/RIT_Workspace/MyFirstMVC/MyFirstMVC.Tests/bin/Debug/MyFirstMVC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstMVC.Tests.Controllers.AccountControllerTest, MyFirstMVC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20512316-d1c9-66ff-c112-e31fc9fedded" executionId="237586fb-6cd9-4d07-8ea8-bd23a81af309" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="218cf645-fc3e-b090-b270-165b5ce728ab" executionId="8d661635-58ae-4afc-8486-1aefcff8a753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30f03493-3cb3-0bb5-694d-2cada8636f17" executionId="9f90ee55-dba4-4632-9b97-ada4ff7f3b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d9d1b2e-af50-a783-5f72-26d77ef268bc" executionId="64ae414b-64b0-45a4-88dc-4775242d8923" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="593aa7a0-480c-3935-4631-347a5c4df54e" executionId="3ec65d08-6566-4b66-be7d-7f9388038fec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70202136-d0e9-7a6b-007a-72e1bcc33cc2" executionId="c116d061-60bf-4b5c-9dc1-488a956c13cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91ba4676-435b-8af9-56cd-4c526f6ddcc4" executionId="9c581e8a-d19c-468e-845c-1244ac12ded2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96cd94ed-e671-e068-c59d-767b9a84eb50" executionId="0557b43a-f51c-45af-a93c-9e9f8bba65fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a040b611-3406-69aa-a754-4ace4cc5a7b2" executionId="4d5c9591-436a-42fc-826a-70d7ad11c78d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af03b902-9d9a-22ca-b19c-722cbfa28ef6" executionId="9bf7843d-c343-430d-a97f-2e3a4145e654" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1e782de-f4f0-968d-0793-b34f6c03aa37" executionId="f508f908-803e-4141-bc66-1507f842c1e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8ab82bd-93f1-f614-4138-500867e34e48" executionId="70f8112f-ada6-451a-ba4c-75e1b4674514" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0704885-cd8d-1109-937b-2f846c2d8383" executionId="bd087250-9951-4581-a0f9-0a35cfc7e68f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7ec2cb1-bdad-676e-f4d0-198c0aef9fd3" executionId="64bbab6d-0824-4ca5-a865-1c5fca0194a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebc08476-5eec-11cb-d2ad-c1459517b868" executionId="92f9613a-149a-41a9-a5e1-f2b773b2a1c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f90221a7-d641-e8de-acd8-a98bf4190c93" executionId="cc806927-b3b5-4570-a3ac-fe898daa0e13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fad39121-cae6-7ba8-a776-4227aeae1cfb" executionId="5c4665c8-110a-40a1-a4d6-609c65ecdd33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="237586fb-6cd9-4d07-8ea8-bd23a81af309" testId="20512316-d1c9-66ff-c112-e31fc9fedded" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="237586fb-6cd9-4d07-8ea8-bd23a81af309">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d661635-58ae-4afc-8486-1aefcff8a753" testId="218cf645-fc3e-b090-b270-165b5ce728ab" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d661635-58ae-4afc-8486-1aefcff8a753">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f90ee55-dba4-4632-9b97-ada4ff7f3b7f" testId="30f03493-3cb3-0bb5-694d-2cada8636f17" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f90ee55-dba4-4632-9b97-ada4ff7f3b7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="64ae414b-64b0-45a4-88dc-4775242d8923" testId="4d9d1b2e-af50-a783-5f72-26d77ef268bc" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64ae414b-64b0-45a4-88dc-4775242d8923">
+    </UnitTestResult>
+    <UnitTestResult executionId="3ec65d08-6566-4b66-be7d-7f9388038fec" testId="593aa7a0-480c-3935-4631-347a5c4df54e" testName="LogOff_LogsOutAndRedirects" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ec65d08-6566-4b66-be7d-7f9388038fec">
+    </UnitTestResult>
+    <UnitTestResult executionId="c116d061-60bf-4b5c-9dc1-488a956c13cd" testId="70202136-d0e9-7a6b-007a-72e1bcc33cc2" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c116d061-60bf-4b5c-9dc1-488a956c13cd">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c581e8a-d19c-468e-845c-1244ac12ded2" testId="91ba4676-435b-8af9-56cd-4c526f6ddcc4" testName="Index" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c581e8a-d19c-468e-845c-1244ac12ded2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0557b43a-f51c-45af-a93c-9e9f8bba65fa" testId="96cd94ed-e671-e068-c59d-767b9a84eb50" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0557b43a-f51c-45af-a93c-9e9f8bba65fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="4d5c9591-436a-42fc-826a-70d7ad11c78d" testId="a040b611-3406-69aa-a754-4ace4cc5a7b2" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d5c9591-436a-42fc-826a-70d7ad11c78d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9bf7843d-c343-430d-a97f-2e3a4145e654" testId="af03b902-9d9a-22ca-b19c-722cbfa28ef6" testName="Register_Get_ReturnsView" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bf7843d-c343-430d-a97f-2e3a4145e654">
+    </UnitTestResult>
+    <UnitTestResult executionId="f508f908-803e-4141-bc66-1507f842c1e8" testId="b1e782de-f4f0-968d-0793-b34f6c03aa37" testName="About" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f508f908-803e-4141-bc66-1507f842c1e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="70f8112f-ada6-451a-ba4c-75e1b4674514" testId="d8ab82bd-93f1-f614-4138-500867e34e48" testName="ChangePasswordSuccess_ReturnsView" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70f8112f-ada6-451a-ba4c-75e1b4674514">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd087250-9951-4581-a0f9-0a35cfc7e68f" testId="e0704885-cd8d-1109-937b-2f846c2d8383" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd087250-9951-4581-a0f9-0a35cfc7e68f">
+    </UnitTestResult>
+    <UnitTestResult executionId="64bbab6d-0824-4ca5-a865-1c5fca0194a7" testId="e7ec2cb1-bdad-676e-f4d0-198c0aef9fd3" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64bbab6d-0824-4ca5-a865-1c5fca0194a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="92f9613a-149a-41a9-a5e1-f2b773b2a1c5" testId="ebc08476-5eec-11cb-d2ad-c1459517b868" testName="LogOn_Get_ReturnsView" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92f9613a-149a-41a9-a5e1-f2b773b2a1c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc806927-b3b5-4570-a3ac-fe898daa0e13" testId="f90221a7-d641-e8de-acd8-a98bf4190c93" testName="ChangePassword_Get_ReturnsView" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc806927-b3b5-4570-a3ac-fe898daa0e13">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c4665c8-110a-40a1-a4d6-609c65ecdd33" testId="fad39121-cae6-7ba8-a776-4227aeae1cfb" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="REN-INFOTECH" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c4665c8-110a-40a1-a4d6-609c65ecdd33">
+    </UnitTestResult>
+  </Results>
+</TestRun>

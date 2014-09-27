@@ -1,0 +1,8 @@
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\obj\Debug\MyFirstMVC.Tests.csprojResolveAssemblyReference.cache
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\bin\Debug\MyFirstMVC.Tests.dll.config
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\bin\Debug\MyFirstMVC.Tests.dll
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\bin\Debug\MyFirstMVC.Tests.pdb
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\bin\Debug\MyFirstMVC.dll
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\bin\Debug\MyFirstMVC.pdb
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\obj\Debug\MyFirstMVC.Tests.dll
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC.Tests\obj\Debug\MyFirstMVC.Tests.pdb

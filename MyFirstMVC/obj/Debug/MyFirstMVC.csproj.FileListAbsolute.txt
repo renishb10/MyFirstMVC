@@ -1,0 +1,5 @@
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC\bin\MyFirstMVC.dll
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC\bin\MyFirstMVC.pdb
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC\obj\Debug\MyFirstMVC.csprojResolveAssemblyReference.cache
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC\obj\Debug\MyFirstMVC.dll
+D:\RIT_Workspace\MyFirstMVC\MyFirstMVC\obj\Debug\MyFirstMVC.pdb
