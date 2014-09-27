@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: ViewData["Message"] %></h2>
 
-        <h3>Dog Management System - Power of MVC</h3>
+        <h3>Cutie Dog Management System - Power of MVC</h3>
         <table style="width: 100%;">
             <tr>
                 <th>&nbsp;</th>
